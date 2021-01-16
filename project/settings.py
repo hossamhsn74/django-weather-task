@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'weather.apps.WeatherConfig',
 ]
 
 MIDDLEWARE = [
@@ -79,14 +80,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'testdb',
-    #     'USER': 'postgres',
-    #     'PASSWORD': 'iti',
-    #     'HOST': 'localhost',
-    #     'PORT': '5432',
-    # }
 }
 
 
